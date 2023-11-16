@@ -15,4 +15,4 @@
 
 # PostgreSQL Backup automate code:
     * 0 * * * root PGPASSWORD=abc@123 pg_dump -U abc -d ABCD -f /var/opt/backup/PGDB_$(date +\%Y\%m\%d).sql
-Here 0 means midnight at 12 am. The backup will start everyday,everyweek,and everymonth 
+Here 0 means midnight at 12 am. The backup will start everyday,everyweek,and everymonth.
